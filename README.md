@@ -46,4 +46,4 @@ pip install scapy matplotlib
     **Solution**:
     - **Run the Script as Administrator**:
       - In Windows, raw sockets (which are used to send ICMP pings) require administrator privileges.
-      - If you are using Command Prompt, run as administrator then try running the script again.
+      - If you are using Command Prompt, VSCode or any other software to run the code. Run the software elevated then try running the script again.
