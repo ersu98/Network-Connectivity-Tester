@@ -60,6 +60,8 @@ def plot_ping_results(plot_data):
     
     plt.title("Ping Test Results")
     plt.xlabel("Ping Count")
+    plt.xticks(range(len(ping_times)))
+    plt.xlim(1, len(ping_times))
     plt.ylabel("Round-Trip Time (ms)")
     plt.legend()
     plt.show()
